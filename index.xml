@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>https://zengjianquan.github.io/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 May 2020 16:23:27 +0800</lastBuildDate>
+    
+	<atom:link href="https://zengjianquan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>博客搭建</title>
+      <link>https://zengjianquan.github.io/post/blog/</link>
+      <pubDate>Mon, 04 May 2020 16:23:27 +0800</pubDate>
+      
+      <guid>https://zengjianquan.github.io/post/blog/</guid>
+      <description>安装hugo 1.下载地址： ​	https://github.com/gohugoio/hugo/releases
+​	Windows系统下	选择[hugo_0.69.2_Windows-64bit.zip]进行下载。
+2.添加环境变量： ​	下载完成之后将压缩包进行解压。
+​	在磁盘中创建hugo/bin目录将解压后的文件拷贝到该目录中。
+​	打开高级系统设置，配置环境变量，将上述目录添加到path中。
+3.测试： ​	在cmd命令行中直行命令。
+$hugo version ​	得到hugo版本号信息即可。
+用hugo来生成博客站点 1.创建博客根目录 ​	在hugo目录下执行命令,创建myblog文件夹
+$hugo site myblog ​	查看文件夹：
+​	可以看到在hugo文件夹下创建了一个myblog文件夹，里面有一些配置文件、博客内容、数据、布局、静态文件、主题。
+​	hugo/myblog这个目录就是博客的根目录。
+2.下载并设置主题 ​	进入hugo主题网址：https://themes.gohugo.io进行下载。
+​	选择好主题后进行下载，一般在主题页面中会有详细教程，这里举一个例子。
+​	在博客根目录下的themes目录下，进行项目克隆。
+$cd themes	//这一行具体看教程 $git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c ​	下载完成后可以在hugo/myblog/themes中看到下载好的主题。
+在本地启动个人博客 ​	在博客根目录hugo/myblog下执行命令。
+$hugo server -t m10c --buildDrafts // -t是指定主题 ​	可以在http://localhost:1313看到部署成功。
+建立博客 1.创建文章 ​	先停止上述部署。
+​	在博客根目录hugo/myblog下执行命令。
+$hugo new post/blog.</description>
+    </item>
+    
+  </channel>
+</rss>
